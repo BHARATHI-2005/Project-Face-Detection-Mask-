@@ -1,0 +1,8 @@
+# Core ML / vision deps
+# Python 3.13 needs tensorflow>=2.20 (older TF has no 3.13 wheels).
+# Verified working set on 2026-10-06: TF 2.21 + Keras 3 + numpy 2.x.
+tensorflow>=2.20
+opencv-python>=4.8,<5  # v5 removed cv2.CascadeClassifier used for face boxes
+matplotlib>=3.7
+numpy>=1.26
+scikit-learn>=1.3
